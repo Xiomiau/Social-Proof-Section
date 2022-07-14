@@ -25,9 +25,9 @@ body{
     margin: 0 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
+    align-items: center; 
 }
+
 
 .background {
     position: absolute;
@@ -35,8 +35,8 @@ body{
     height: 50vh;
     background-image: url(/images/bg-pattern-top-mobile.svg);
     background-repeat: no-repeat;
-  
 }
+
 
 .title {
     font-size: 4rem;
@@ -46,6 +46,7 @@ body{
     font-weight: 700;
 }
 
+
 .review {
     text-align: center;
     font-size: 1.5rem;
@@ -53,6 +54,7 @@ body{
     color: var(--Dark-Grayish-Magenta);
     font-weight: 500;
 }
+
 
 .review-card {
     width: 100%;
@@ -69,9 +71,11 @@ body{
     color: var(--Very-Dark-Magenta);
 }
 
+
 .img-stars {
     margin-bottom: .5rem;
 }
+
 
 .buyer-card {
     position: relative;
@@ -87,11 +91,13 @@ body{
     margin: 2rem 0 1rem;    align-items: center;
 }
 
+
 .buyer-card img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
 }
+
 
 .name {
     grid-column:2/4;
@@ -101,6 +107,7 @@ body{
     font-weight: 500;
     line-height: 1.5rem;
 }
+
 
 .verify {
     color: var(--Soft-Pink);
@@ -118,6 +125,7 @@ body{
     line-height: 1.6rem;
     margin-top: 1rem;
 }
+
 
 .attribution a {
     color: var(--Soft-Pink);
