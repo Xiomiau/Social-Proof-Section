@@ -21,20 +21,12 @@ html {
 --fuente:'League Spartan', sans-serif;
 }
 
-body{
-    margin: 0 2rem;
+.sup-container {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-}
-
-
-.background {
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    background-image: url(/images/bg-pattern-top-mobile.svg);
-    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 2rem;
 }
 
 
@@ -76,7 +68,12 @@ body{
     margin-bottom: .5rem;
 }
 
-
+.buyer-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .buyer-card {
     position: relative;
     display: grid;
@@ -127,10 +124,8 @@ body{
 }
 
 
-.attribution a {
-    color: var(--Soft-Pink);
-    text-decoration: none;
-    font-size: 1rem;
+footer {
     width: fit-content;
+    color: var(--Soft-Pink);
     margin: 1rem auto;
 }
