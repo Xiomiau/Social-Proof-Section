@@ -71,6 +71,7 @@ body {
     flex-direction: column;
     height: fit-content;
     width: 50rem;
+    margin-right: 1rem;
 }
 .reviews {
     align-self: start;
